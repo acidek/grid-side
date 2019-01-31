@@ -462,8 +462,9 @@ ul.tags li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size:100% 100%;
-    background-position:center;     
+    /* background-size:100% 100%; */
+    background-position:center;   
+    background-position-y: 0;   
 }
 
 .no-line-height {
@@ -554,6 +555,13 @@ ul.tags li a:hover {
 @media only screen and (max-width: 600px) {
     .center-space {
         padding: 0%;
+    }
+    .fullsize-background-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        /* background-size:100% 100%; */
+        /* background-position:center;      */
     }
 }
 
